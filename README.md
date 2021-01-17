@@ -18,13 +18,13 @@ There are 8 commands that can be performed on an account:
  - remove menu item
  - set menu for restaurant
 
-An [AccountsCommandsController](src/Raifhack.SkepticalBeavers.Server/Controllers/AccountsCommandsController.cs) handles all of them.
+An [AccountCommandsController](src/Raifhack.SkepticalBeavers.Server/Controllers/AccountCommandsController.cs) handles all of them.
 
 All events are stored in the EventStore database. When command is performed,
 account aggregate is loaded from EventStore, command validity is checked (e.g. can't create menu in a non existent account).
 After which appropriate event (e.g. MenuCreated) is saved to the stream.
 
-In the background, application is subscribed to all the streams via [AccountSnapshoter](src/Raifhack.SkepticalBeavers.Server/Services/AccountSnapshoter.cs) HostedService. It listens to all events and updates current state of aggregates in postgres.
+In the background, application is subscribed to all the streams via [AccountsSnapshoter](src/Raifhack.SkepticalBeavers.Server/Services/AccountsSnapshoter.cs) HostedService. It listens to all events and updates current state of aggregates in postgres.
 
 For queries there is a [AccountQueriesController](src/Raifhack.SkepticalBeavers.Server/Controllers/AccountQueriesController.cs).
 It read's aggregate's state from postgres.

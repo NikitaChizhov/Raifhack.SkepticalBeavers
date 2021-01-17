@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$USER_HOME$/.cache/JetBrains/Rider2020.2/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/.cache/JetBrains/Rider2020.2/resharper-host/local/Transient/Rider/v202/SolutionCaches/_Raifhack.SkepticalBeavers.769982914.00" t="ExcludeRecursive" />
+    <e p="$APPLICATION_CONFIG_DIR$/scratches" t="IncludeRecursive" />
+    <e p="$PROJECT_DIR$" t="IncludeFlat">
+      <e p=".gitattributes" t="Include" />
+      <e p=".gitignore" t="Include" />
+      <e p="README.md" t="Include" />
+      <e p="Raifhack.SkepticalBeavers.sln" t="IncludeFlat" />
+      <e p="SolutionItems" t="Include">
+        <e p="diagrams" t="Include" />
+      </e>
+      <e p="diagrams/gen.py" t="Include" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="src" t="Include">
+        <e p="Raifhack.SkepticalBeavers.Server" t="IncludeRecursive">
+          <e p="Controllers" t="Include">
+            <e p="AccountCommandsController.cs" t="Include" />
+            <e p="AccountQueriesController.cs" t="Include" />
+            <e p="AuthorizedControllerBase.cs" t="Include" />
+            <e p="InternalControllerBase.cs" t="Include" />
+            <e p="LoginController.cs" t="Include" />
+          </e>
+          <e p="Exceptions" t="Include">
+            <e p="ConventionViolationException.cs" t="Include" />
+          </e>
+          <e p="Extensions" t="Include">
+            <e p="AccountModificationExtensions.cs" t="Include" />
+          </e>
+          <e p="Migrations" t="Include">
+            <e p="20210116185150_First.Designer.cs" t="Include" />
+            <e p="20210116185150_First.cs" t="Include" />
+            <e p="SnapshotContextModelSnapshot.cs" t="Include" />
+          </e>
+          <e p="Model" t="Include">
+            <e p="AccountModificationResult.cs" t="Include" />
+            <e p="Aggregates" t="Include">
+              <e p="Account.cs" t="Include" />
+              <e p="AggregateBase.cs" t="Include" />
+            </e>
+            <e p="EventBase.cs" t="Include" />
+            <e p="Events" t="Include">
+              <e p="AccountCreated.cs" t="Include" />
+              <e p="MenuCreated.cs" t="Include" />
+              <e p="MenuDeleted.cs" t="Include" />
+              <e p="MenuItemAdded.cs" t="Include" />
+              <e p="MenuItemRemoved.cs" t="Include" />
+              <e p="RestaurantCreated.cs" t="Include" />
+              <e p="RestaurantDeleted.cs" t="Include" />
+              <e p="RestaurantMenuSet.cs" t="Include" />
+            </e>
+            <e p="JwtConfig.cs" t="Include" />
+            <e p="Menu.cs" t="Include" />
+            <e p="MenuItem.cs" t="Include" />
+            <e p="Restaurant.cs" t="Include" />
+            <e p="Snapshots" t="Include">
+              <e p="AccountDb.cs" t="Include" />
+              <e p="MenuDb.cs" t="Include" />
+              <e p="MenuItemDb.cs" t="Include" />
+              <e p="RestaurantDb.cs" t="Include" />
+            </e>
+            <e p="User.cs" t="Include" />
+            <e p="UserRoles.cs" t="Include" />
+          </e>
+          <e p="Program.cs" t="Include" />
+          <e p="Properties" t="Include">
+            <e p="launchSettings.json" t="Include" />
+          </e>
+          <e p="Raifhack.SkepticalBeavers.Server.csproj" t="IncludeRecursive" />
+          <e p="Services" t="Include">
+            <e p="AccountsSnapshoter.cs" t="Include" />
+            <e p="AggregateRepository.cs" t="Include" />
+            <e p="DebugAccounts.cs" t="Include" />
+            <e p="IUserService.cs" t="Include" />
+            <e p="SnapshotContext.cs" t="Include" />
+            <e p="UserService.cs" t="Include" />
+          </e>
+          <e p="Startup.cs" t="Include" />
+          <e p="Utils" t="Include">
+            <e p="HttpContentTypes.cs" t="Include" />
+            <e p="IJwtAuthManager.cs" t="Include" />
+            <e p="InternalControllersFeatureProvider.cs" t="Include" />
+            <e p="JwtAuthManager.cs" t="Include" />
+          </e>
+          <e p="appsettings.json" t="Include" />
+          <e p="bin" t="ExcludeRecursive" />
+          <e p="obj" t="ExcludeRecursive">
+            <e p="Debug" t="Include">
+              <e p="net5.0" t="Include">
+                <e p="Raifhack.SkepticalBeavers.Server.AssemblyInfo.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+        </e>
+        <e p="Raifhack.SkepticalBeavers.Server.Contracts" t="IncludeRecursive">
+          <e p="Raifhack.SkepticalBeavers.Server.Contracts.csproj" t="IncludeRecursive" />
+          <e p="Requests" t="Include">
+            <e p="CreateMenuRequest.cs" t="Include" />
+            <e p="CreateRestaurantRequest.cs" t="Include" />
+            <e p="LoginRequest.cs" t="Include" />
+            <e p="UpdateMenuRequest.cs" t="Include" />
+            <e p="UpdateRestaurantRequest.cs" t="Include" />
+          </e>
+          <e p="Responses" t="Include">
+            <e p="LoginResponse.cs" t="Include" />
+            <e p="MenuFullResponse.cs" t="Include" />
+            <e p="MenuShortResponse.cs" t="Include" />
+            <e p="MenusResponse.cs" t="Include" />
+            <e p="RestaurantResponse.cs" t="Include" />
+            <e p="RestaurantsResponse.cs" t="Include" />
+          </e>
+          <e p="Routes.cs" t="Include" />
+          <e p="SupportingTypes" t="Include">
+            <e p="Address.cs" t="Include" />
+            <e p="MenuItem.cs" t="Include" />
+          </e>
+          <e p="bin" t="ExcludeRecursive" />
+          <e p="obj" t="ExcludeRecursive">
+            <e p="Debug" t="Include">
+              <e p="netcoreapp5.0" t="Include">
+                <e p="Raifhack.SkepticalBeavers.Server.Contracts.AssemblyInfo.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+        </e>
+      </e>
+    </e>
+  </component>
+</project>

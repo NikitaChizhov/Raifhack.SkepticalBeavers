@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{A35DCE81-62E2-42A3-9C92-D356D0872D2A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Raifhack.SkepticalBeavers.Server", "src\Raifhack.SkepticalBeavers.Server\Raifhack.SkepticalBeavers.Server.csproj", "{EE242AA0-F7A8-451B-A8CB-85BBC6486740}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionItems", "{1AA8A51D-3C08-4D84-B5E9-A7A44A121D67}"
+ProjectSection(SolutionItems) = preProject
+	.gitignore = .gitignore
+	README.md = README.md
+	.gitattributes = .gitattributes
+EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Raifhack.SkepticalBeavers.Server.Contracts", "src\Raifhack.SkepticalBeavers.Server.Contracts\Raifhack.SkepticalBeavers.Server.Contracts.csproj", "{86100E1A-4C9C-48BC-819B-A4E7318C54E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "diagrams", "diagrams", "{2C303BEE-F04A-4707-8836-5BFF0B8AF87E}"
+ProjectSection(SolutionItems) = preProject
+	diagrams\gen.py = diagrams\gen.py
+EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EE242AA0-F7A8-451B-A8CB-85BBC6486740}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE242AA0-F7A8-451B-A8CB-85BBC6486740}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE242AA0-F7A8-451B-A8CB-85BBC6486740}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE242AA0-F7A8-451B-A8CB-85BBC6486740}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86100E1A-4C9C-48BC-819B-A4E7318C54E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86100E1A-4C9C-48BC-819B-A4E7318C54E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86100E1A-4C9C-48BC-819B-A4E7318C54E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86100E1A-4C9C-48BC-819B-A4E7318C54E8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EE242AA0-F7A8-451B-A8CB-85BBC6486740} = {A35DCE81-62E2-42A3-9C92-D356D0872D2A}
+		{86100E1A-4C9C-48BC-819B-A4E7318C54E8} = {A35DCE81-62E2-42A3-9C92-D356D0872D2A}
+		{2C303BEE-F04A-4707-8836-5BFF0B8AF87E} = {1AA8A51D-3C08-4D84-B5E9-A7A44A121D67}
+	EndGlobalSection
+EndGlobal
